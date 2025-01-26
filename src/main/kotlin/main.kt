@@ -1,7 +1,7 @@
 package ru.netology
 
 fun main () {
-    val likes: Int = 5;
-    val result = if (likes == 1) "человеку" else "людям"
+    val likes: Int = 31;
+    val result = if (likes % 10 == 1 && likes != 11) "человеку" else "людям"
     println("понравилось $likes $result.")
 }
